@@ -14,6 +14,6 @@ A machine learning-based system to detect phishing URLs with explainability and 
 ## 🚀 How to Run
 
 - 1.) Extract files from original dataset.zip
-- 2.) Now run dataset_combining.py
+- 2.) Now run dataset_combining.py to generate the combined_url_dataset.csv which will be used for model.py
 - 3.) Next run the model.py for feature extraction , model evaluation and generating the best_phishing_model.pkl , scaler.pkl and feature_columns.pkl
 - 4.) Run the app.py using the command :- streamlit run streamlit_app/app.py
